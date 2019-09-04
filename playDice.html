@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play Dice</title>
+</head>
+<body>
+
+<br>
+<hr size="3">
+<br>
+<center>
+    <h1>There are 2 cubes, Press the button to see if you role a double 6's.</h1>
+</center>
+<br><hr size="3" width="50%">
+
+<center>
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <!-- display dice #1 -->
+                <img src="images\6.gif" id="dice1" alt="Dice1" width="125" height="125"> </img>
+            </td>
+            <td>
+                <!-- display dice #2 -->
+                <img src="images\6.gif" id="dice2" alt="Dice2" width="125" height="125"> </img>
+            </td>
+        </tr>
+    </table>
+</center>
+
+    <center><br><input type="button" value="Come On 6's" onclick="myFunction()"></center>
+        <script>
+            var count=0;
+
+            function myFunction() {
+                var chosenDice1=["images/1.gif","images/2.gif","images/3.gif","images/4.gif","images/5.gif","images/6.gif"];
+                var chosenDice2=["images/1.gif","images/2.gif","images/3.gif","images/4.gif","images/5.gif","images/6.gif"];
+                choose1=Math.floor(Math.random()*6);
+                choose2=Math.floor(Math.random()*6);
+
+                document.getElementById("dice1").src = chosenDice1[choose1];
+                document.getElementById("dice2").src = chosenDice2[choose2];
+
+                    console.log((choose1+1) + " - " + (choose2+1));
+                    count++;
+
+                if (choose1 === 5 && choose2 === 5) {
+                    printYay();
+                }
+
+            }
+
+            function printYay(){
+                window.alert("Yah, you Gotye some 6's my friend! It only took you : "+ count + " tries!");
+                count=0;
+            }
+
+
+        </script>
+
+</body>
+</html>
