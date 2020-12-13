@@ -1,0 +1,44 @@
+/* indexcss.css
+	for coreDEBUG website
+	12/5-2020 JanMC Consultants
+
+	id = #
+	class = .
+*/
+
+#bg {
+   	position: fixed;
+   	top: 200; 
+   	left: 0; 
+   	z-index: -2;
+   	align-content: center;
+	
+  /* Preserve aspet ratio */
+  	min-width: 100%;
+  	min-height: 100%;
+
+  	opacity: 0.5;
+}
+
+.sitetext {
+	font-size: 50px;
+	font-family: 'Ranchers', cursive;
+}
+
+.container {
+	max-width: 40%;
+	background-color: black;
+	opacity: 0.4;
+	font-weight: bolder;
+}
+
+#buttonlinks {
+	float: left;
+	width: 700px;
+	text-align: center;
+
+}
+
+.aboutbody {
+	opacity: .3;
+}
