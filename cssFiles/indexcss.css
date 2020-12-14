@@ -1,0 +1,78 @@
+/* indexcss.css
+	for coreDEBUG website
+	12/5-2020 JanMC Consultants
+
+	id = #
+	class = .
+*/
+
+#bg {
+   	position: fixed;
+   	top: 200;
+   	left: 0;
+	float: center; 
+	display: flex;
+	z-index: -1;
+   	align-content: center;
+
+  	min-width: 80%;
+  	min-height: 80%;
+
+  	opacity: 0.5;
+}
+
+.sitetext {
+	font-size: 50px;
+	font-family: 'Ranchers', cursive;
+}
+
+#buttonlinks {
+	float: left;
+	width: 800px;
+	text-align: center;
+}
+
+.aboutbody {
+/*	opacity: .5;*/
+}
+
+.topContainer {
+	width: 100%;
+	height: 400px;
+	position: fixed;
+	border: 5px solid black;
+	background-color: black;
+    z-index: 1;
+}
+
+.container {    /* full stack information */
+	max-width: 40%;
+	background-color: black;
+	opacity: 0.5;
+	font-weight: bolder;
+	text-align: justify;
+/*	position: fixed;
+   	left: 30em;
+   	right: 30em;
+   	top: 15em;
+   	z-index: 1;*/
+}
+
+.scrollWindow {
+	width: 100%;
+   	height: 150em;
+   	/*background-color: #00f;*/
+   	border: 3px solid black;
+/*	opacity: 0.5;*/
+   	position: absolute;
+   	top: 25em;
+   	/*z-index: -1;*/
+
+}
+
+.scrollWindowImages {
+	margin: 10px 50px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
