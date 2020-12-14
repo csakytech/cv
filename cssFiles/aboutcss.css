@@ -1,0 +1,21 @@
+/* aboutcss.css
+	for coreDEBUG website
+	12/5-2020 JanMC Consultants
+
+	id = #
+	class = .
+*/
+
+.container {
+	max-width: 40%;
+	background-color: black;
+	opacity: 0.4;
+	font-weight: bolder;
+}
+
+#buttonlinks {
+	float: left;
+	width: 700px;
+	text-align: center;
+
+}
