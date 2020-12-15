@@ -15,7 +15,13 @@
 
 #buttonlinks {
 	float: left;
-	width: 700px;
+	width: 800px;
 	text-align: center;
+}
 
+.myHistory {
+   margin: 2em;
+   border: 2px solid darkblue;
+   width: 600px;
+   height: 20em; position: relative;
 }
